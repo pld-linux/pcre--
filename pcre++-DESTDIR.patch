@@ -1,0 +1,11 @@
+--- doc/Makefile.am~	2003-02-23 17:37:03.000000000 +0100
++++ doc/Makefile.am	2004-09-21 21:20:05.000000000 +0200
+@@ -4,5 +4,5 @@
+ DOC_FILES = html/* ../README ../COPYING ../AUTHORS ../INSTALL ../ChangeLog ../config.log
+ 
+ install-data-local:
+-	$(INSTALL) -m 755 -d $(prefix)/doc/libpcre++-$(VERSION)
+-	$(INSTALL) -m 644 $(DOC_FILES) $(prefix)/doc/libpcre++-$(VERSION)/
+\ Brak znaku nowej linii na koñcu pliku
++	$(INSTALL) -m 755 -d $(DESTDIR)$(prefix)/doc/libpcre++-$(VERSION)
++	$(INSTALL) -m 644 $(DOC_FILES) $(DESTDIR)$(prefix)/doc/libpcre++-$(VERSION)/
