@@ -36,6 +36,8 @@ Summary:	Header files for pcre++ library
 Summary(pl):	Pliki nag³ówkowe biblioteki pcre++
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	libstdc++-devel
+Requires:	pcre-devel
 
 %description devel
 Header files for pcre++ library.
@@ -66,7 +68,8 @@ Statyczna biblioteka pcre++.
 %{__autoheader}
 %{__automake}
 %configure
-%{__make}
+%{__make} \
+	CXXFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
