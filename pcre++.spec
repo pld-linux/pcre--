@@ -3,7 +3,7 @@ Summary(pl):	Nak³adka na bibliotekê PCRE dla C++
 Name:		pcre++
 Version:	0.9.5
 Release:	1
-License:	- (enter GPL/LGPL/BSD/BSD-like/other license name here)
+License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.daemon.de/scip/Apps/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	1fe6ea8e23ece01fde2ce5fb4746acc2
@@ -24,11 +24,12 @@ strings, to split strings into parts using expressions, or to search
 and replace a part of a string with another part.
 
 %description -l pl
-PCRE jest klas±-nak³adk± dla C++ na bibliotekê PCRE(wyra¿enia
-regularne dla Perla). Pozwala na korzystanie z sk³adni perlowych
-wyra¿eñ regularnych w aplikacjach C++. Mo¿na przeszukiwaæ w tekstach,
-dzieliæ tekst korzystaj±c z ró¿nych wyra¿eñ lub wyszukiwaæ i zamieniaæ
-fragmenty tekstu innymi czê¶ciami.
+PCRE++ jest klas±-nak³adk± dla C++ na bibliotekê PCRE (Perl Compatible
+Regular Expressions - perlowych wyra¿eñ regularnych). Pozwala na
+korzystanie ze sk³adni perlowych wyra¿eñ regularnych w aplikacjach
+C++. Mo¿na przeszukiwaæ w tekstach, dzieliæ tekst korzystaj±c z
+ró¿nych wyra¿eñ lub wyszukiwaæ i zamieniaæ fragmenty tekstu innymi
+czê¶ciami.
 
 %package devel
 Summary:	Header files for pcre++ library
@@ -89,12 +90,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
+%doc lib%{name}-%{version}/*
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/lib*.so
 %{_libdir}/lib*.la
 %{_includedir}/%{name}.h
 %{_mandir}/man3/*
-%doc lib%{name}-%{version}/*
 
 %files static
 %defattr(644,root,root,755)
