@@ -24,10 +24,11 @@ strings, to split strings into parts using expressions, or to search
 and replace a part of a string with another part.
 
 %description -l pl
-PCRE jest klas±-nak³adk± dla C++ na bibliotekê PCRE(wyra¿enia regularne dla
-Perla). Pozwala na korzystanie z sk³adni perlowych wyra¿eñ regularnych w
-aplikacjach C++. Mo¿na przeszukiwaæ w tekstach, dzieliæ tekst korzystaj±c z
-ró¿nych wyra¿eñ lub wyszukiwaæ i zamieniaæ fragmenty tekstu innymi czê¶ciami.
+PCRE jest klas±-nak³adk± dla C++ na bibliotekê PCRE(wyra¿enia
+regularne dla Perla). Pozwala na korzystanie z sk³adni perlowych
+wyra¿eñ regularnych w aplikacjach C++. Mo¿na przeszukiwaæ w tekstach,
+dzieliæ tekst korzystaj±c z ró¿nych wyra¿eñ lub wyszukiwaæ i zamieniaæ
+fragmenty tekstu innymi czê¶ciami.
 
 %package devel
 Summary:	Header files for pcre++ library
