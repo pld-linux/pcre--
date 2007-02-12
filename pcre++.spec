@@ -1,5 +1,5 @@
 Summary:	C++ wrapper around the PCRE library
-Summary(pl):	Nak³adka na bibliotekê PCRE dla C++
+Summary(pl.UTF-8):   NakÅ‚adka na bibliotekÄ™ PCRE dla C++
 Name:		pcre++
 Version:	0.9.5
 Release:	2
@@ -23,17 +23,17 @@ expressions in your C++ applications. You can use it to search in
 strings, to split strings into parts using expressions, or to search
 and replace a part of a string with another part.
 
-%description -l pl
-PCRE++ jest klas±-nak³adk± dla C++ na bibliotekê PCRE (Perl Compatible
-Regular Expressions - perlowych wyra¿eñ regularnych). Pozwala na
-korzystanie ze sk³adni perlowych wyra¿eñ regularnych w aplikacjach
-C++. Mo¿na przeszukiwaæ w tekstach, dzieliæ tekst korzystaj±c z
-ró¿nych wyra¿eñ lub wyszukiwaæ i zamieniaæ fragmenty tekstu innymi
-czê¶ciami.
+%description -l pl.UTF-8
+PCRE++ jest klasÄ…-nakÅ‚adkÄ… dla C++ na bibliotekÄ™ PCRE (Perl Compatible
+Regular Expressions - perlowych wyraÅ¼eÅ„ regularnych). Pozwala na
+korzystanie ze skÅ‚adni perlowych wyraÅ¼eÅ„ regularnych w aplikacjach
+C++. MoÅ¼na przeszukiwaÄ‡ w tekstach, dzieliÄ‡ tekst korzystajÄ…c z
+rÃ³Å¼nych wyraÅ¼eÅ„ lub wyszukiwaÄ‡ i zamieniaÄ‡ fragmenty tekstu innymi
+czÄ™Å›ciami.
 
 %package devel
 Summary:	Header files for pcre++ library
-Summary(pl):	Pliki nag³ówkowe biblioteki pcre++
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki pcre++
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -42,19 +42,19 @@ Requires:	pcre-devel
 %description devel
 Header files for pcre++ library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki pcre++.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki pcre++.
 
 %package static
 Summary:	Static pcre++ library
-Summary(pl):	Statyczna biblioteka pcre++
+Summary(pl.UTF-8):   Statyczna biblioteka pcre++
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static pcre++ library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka pcre++.
 
 %prep
