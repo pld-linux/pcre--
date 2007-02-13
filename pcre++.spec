@@ -1,5 +1,5 @@
 Summary:	C++ wrapper around the PCRE library
-Summary(pl.UTF-8):   Nakładka na bibliotekę PCRE dla C++
+Summary(pl.UTF-8):	Nakładka na bibliotekę PCRE dla C++
 Name:		pcre++
 Version:	0.9.5
 Release:	2
@@ -33,7 +33,7 @@ częściami.
 
 %package devel
 Summary:	Header files for pcre++ library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki pcre++
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki pcre++
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -47,7 +47,7 @@ Pliki nagłówkowe biblioteki pcre++.
 
 %package static
 Summary:	Static pcre++ library
-Summary(pl.UTF-8):   Statyczna biblioteka pcre++
+Summary(pl.UTF-8):	Statyczna biblioteka pcre++
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
