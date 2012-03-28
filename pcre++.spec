@@ -2,7 +2,7 @@ Summary:	C++ wrapper around the PCRE library
 Summary(pl.UTF-8):	Nakładka na bibliotekę PCRE dla C++
 Name:		pcre++
 Version:	0.9.5
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.daemon.de/scip/Apps/%{name}/%{name}-%{version}.tar.gz
