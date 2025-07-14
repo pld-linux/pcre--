@@ -59,7 +59,7 @@ Statyczna biblioteka pcre++.
 
 %prep
 %setup -q
-%patch0
+%patch -P0
 
 %build
 %{__libtoolize}
